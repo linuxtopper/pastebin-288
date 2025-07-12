@@ -1,14 +1,20 @@
 {
-  "name": "nodejs-helloworld",
+  "name": "node-hello",
   "version": "1.0.0",
-  "description": "Hello World!",
-  "main": "app.js",
+  "description": "hello",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
-  "author": "Red Hat Training",
-  "license": "ASL",
-  "dependencies": {
-    "express": "4.14.x"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpapa/node-hello.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnpapa/node-hello/issues"
+  },
+  "homepage": "https://github.com/johnpapa/node-hello#readme"
 }
